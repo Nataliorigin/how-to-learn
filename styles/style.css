@@ -111,7 +111,7 @@
 }
 
 .two-columns__paragraph:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
 .two-columns__span-accent {
   font-weight: 600;
@@ -214,7 +214,7 @@
   margin: 0 auto;
   background-color: #1f1f1f;
   color: #fff;
-  z-index: -1;
+  z-index: 0;
   overflow: hidden;
 }
 
@@ -242,12 +242,13 @@
 }
 
 .kaufman__triangle {
-  width: 877px;
-  height: 877px;
   position: absolute;
   right: -210px;
   top: 0;
   z-index: 0;
+  width: 877px;
+  min-height: 877px;
+  background: url(../images/kaufman-triangle.svg) 0 0 / 877px 877px no-repeat;
 }
 
 /* Footer*/
