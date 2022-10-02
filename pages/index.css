@@ -1,5 +1,4 @@
 /*Global styles*/
-@import url(../blocks/root/root.css);
 @import url(/vendor/normalize.css);
 /*Animation*/
 @import url(../blocks/rotation/rotation.css);
