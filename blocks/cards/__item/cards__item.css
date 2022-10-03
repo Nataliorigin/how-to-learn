@@ -5,6 +5,3 @@
   align-items: center;
   text-align: center;
 }
-.cards__item:first-child .cards__description {
-  padding: 0 20px;
-}
